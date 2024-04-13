@@ -47,6 +47,3 @@ Configure Server:
 Configure your hosting provider's server to serve the website's files correctly. This might involve setting up a web server (e.g., Apache, Nginx) and configuring it to point to the website's directory.
 Additional Notes
 
-Replace https://your-git-repository-url/freelancerbiswajit.git with the actual URL of your Git repository.
-This is a basic guide, and the specific steps might vary depending on your project's setup and chosen technologies.
-Consider using a version control system like Git to track changes to your codebase.
