@@ -7,18 +7,18 @@ Getting Started
 To get a local copy of the project up and running, follow these steps:
 
 Prerequisites:
-Ensure you have the necessary development environment set up, including:
+  Ensure you have the necessary development environment set up, including:
 A code editor (e.g., Visual Studio Code, Sublime Text)
 Node.js and npm (or yarn) installed on your system (https://nodejs.org/en/download)
 Clone the Repository:
 Use Git to clone this repository:
 Bash
-git clone https://your-git-repository-url/freelancerbiswajit.git
+git clone https://github.com/codebybiswajit/ecommercedemo1
 Use code with caution.
 Install Dependencies:
 Navigate to the project directory:
 Bash
-cd freelancerbiswajit
+cd ecommercedemo1
 Use code with caution.
 Install the required dependencies:
 Bash
