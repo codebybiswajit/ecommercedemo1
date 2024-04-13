@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheackout</title>
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="icon" href="https://codebybiswajit.github.io/secondportfolio/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body class="h-100 w-100">
+    <header>
+        <div class="container-fluid bg-dark">
+            <nav class="navbar navbar-expand-lg py-0 ">
+                <div class="container-fluid">
+                    <a class="navbar-brand x" href="#">
+                        <img src="https://codebybiswajit.github.io/secondportfolio/freelancer-biswajit-high-resolution-logo-transparent%20(1).png"
+                            alt="" srcset="" class="img-fluid" width="148" class="d-inline-block align-text-top">
+                    </a>
+
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav me-auto  my-lg-0 navbar-nav-scroll">
+                            <li class="nav-item d-flex  align-items-center x">
+                                <i class='bx bx-current-location text-white'></i>
+                                <a class="nav-link" aria-current="page" href="#address" style="color: white;">Delivering
+                                    To Address <b>Update Location</b></a>
+                            </li>
+                        </ul>
+                        <form class="container-fluid">
+
+                            <div class="input-group fc">
+                                <span class="input-group-text fc" id="basic-addon1">
+                                    <button class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        All
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-black">
+                                        <li><a class="dropdown-item" href="#home">Home</a></li>
+                                        <li><a class="dropdown-item" href="#aboutus">About Us</a></li>
+                                        <li><a class="dropdown-item" href="#product">Products</a></li>
+                                        <li><a class="dropdown-item" href="#blog">Blogs</a></li>
+                                        <li><a class="dropdown-item" href="#cu">Contacts</a></li>
+                                    </ul>
+                                </span>
+                                <input type="text" class="form-control fc"
+                                    placeholder="Search freelancerbiswajit.github.io" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group-text fc" id="basic-addon2"><i class='bx bx-search-alt fs-3'
+                                        role="button"></i></span>
+                            </div>
+                        </form>
+                        <ul class="navbar-nav me-auto my-lg-0 navbar-nav-scroll">
+                            <li class="nav-item1">
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn bg-transparent text-white" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Hello,
+                                    sign in <b>Account & Lists
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <div class="login-wrap">
+                                                    <div class="login-html">
+                                                        <input id="tab-1" type="radio" name="tab" class="sign-in"
+                                                            checked><label for="tab-1" class="tab">Sign In</label>
+                                                        <input id="tab-2" type="radio" name="tab" class="sign-up"><label
+                                                            for="tab-2" class="tab">Sign Up</label>
+                                                        <div class="login-form">
+                                                            <div class="sign-in-htm">
+                                                                <div class="group">
+                                                                    <label for="user" class="label">Username</label>
+                                                                    <input id="user" type="text" class="input">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <label for="pass" class="label">Password</label>
+                                                                    <input id="pass" type="password" class="input"
+                                                                        data-type="password">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <input id="check" type="checkbox" class="check"
+                                                                        checked>
+                                                                    <label for="check"><span class="icon"></span> Keep
+                                                                        me Signed in</label>
+                                                                </div>
+                                                                <div class="group">
+                                                                    <input type="submit" class="button" value="Sign In">
+                                                                </div>
+                                                                <div class="hr"></div>
+                                                                <div class="foot-lnk">
+                                                                    <a href="#forgot">Forgot Password?</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="sign-up-htm">
+                                                                <div class="group">
+                                                                    <label for="user" class="label">Username</label>
+                                                                    <input id="user" type="text" class="input">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <label for="pass" class="label">Password</label>
+                                                                    <input id="pass" type="password" class="input"
+                                                                        data-type="password">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <label for="pass" class="label">Repeat
+                                                                        Password</label>
+                                                                    <input id="pass" type="password" class="input"
+                                                                        data-type="password">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <label for="pass" class="label">Email
+                                                                        Address</label>
+                                                                    <input id="pass" type="text" class="input">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <input type="submit" class="button" value="Sign Up">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item x">
+                                <button type="button" class="btn bg-transparent text-white" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal1">
+                                    Returns <b>&Orders</b>
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade text-white " id="exampleModal1" tabindex="-1"
+                                    aria-labelledby="exampleModal1Label" aria-hidden="true">
+                                    <div class="modal-dialog rounded-4" style="border: .4em ridge red;">
+                                        <div class="modal-content bg-dark text-white" style="border-radius: .4em">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModal1Label">Returns & Orders
+                                                </h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                You Haven't Order Enything
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div </li>
+                        </ul>
+
+                        <!-- <i class="bi bi-cart"></i> -->
+                    </div>
+                    <i class='bx bx-cart-add text-white fs-1 x' role="button"></i>
+                </div>
+            </nav>
+
+
+        </div>
+    </header>
+    <style>
+        .tp{
+            transition: .1s;
+        }
+        .tp:hover{
+            transform: scale(1.08);
+        }
+
+    </style>
+    <main>
+        <div class="container tp mt-5 bg-dark-subtle bg-gradient text-dark p-5 rounded-1">
+            <div class="row">
+                <div class="col-md-4 order-md-2 mb-4">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-muted">Your cart</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0" width = "70%">Apple iPhone 12 Pro Max (Pacific Blue)</h6>
+                                <small class="text-muted">128 GB ROM <br>
+                                    17.02 cm (6.7 inch) Super Retina XDR Display</small>
+                            </div>
+                            <span class="text-muted">$400</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0" width = "70%">Delivery Free </h6>
+                            </div>
+                            <span class="text-muted">$5</span>
+                        </li>
+                        
+                        <li class="list-group-item d-flex justify-content-between bg-light">
+                            <div class="text-success">
+                                <h6 class="my-0">Promo code</h6>
+                                <small>PROMOCODE005</small
+                            </div>
+                            <span class="text-success">-$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Total (USD)</span>
+                            <strong>$400</strong>
+                        </li>
+                    </ul>
+
+                    <form class="card p-2">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Promo code">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-info">Redeem</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-8 order-md-1">
+                    <h4 class="mb-3">Billing address</h4>
+                    <form class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName">First name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="first name" value="" required>
+                                <div class="invalid-feedback">
+                                    Valid first name is required.
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName">Last name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="last name" value="" required>
+                                <div class="invalid-feedback">
+                                    Valid last name is required.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="username">Phone No </label>
+                            <input type="tel" name="tel" id="tel" class="form-control" required placeholder="enter phone no">
+                            <div class="invalid-feedback">
+                                Mobile Number is Necessary For Communication
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                            <div class="invalid-feedback">
+                                Please enter a valid email address for shipping updates.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" placeholder="plot no Main St" required>
+                            <div class="invalid-feedback">
+                                Please enter your shipping address.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-5 mb-3">
+                                <label for="country">Country</label>
+                                <select class="custom-select form-select d-block w-100" id="country" required>
+                                    <option value="">Choose...</option>
+                                    <option>India</option>
+                                    <option>Usa</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid country.
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="state">State</label>
+                                <select class="custom-select form-select d-block w-100" id="state" required>
+                                    <option value="">Choose...</option>
+                                    <option>Delhi</option>
+                                    <option>Odisha</option>
+                                    <option>Kolkata</option>
+                                    <option>Karnatak</option>
+                                    <option>Bengalur</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please provide a valid state.
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="zip">Pin Code</label>
+                                <input type="text" class="form-control" id="zip" placeholder="" required>
+                                <div class="invalid-feedback">
+                                    Zip code required.
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mb-4">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="same-address">
+                            <label class="custom-control-label" for="same-address">Shipping address is the same as my
+                                billing address</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="save-info">
+                            <label class="custom-control-label" for="save-info">Save this information for next
+                                time</label>
+                        </div>
+                        <hr class="mb-4">
+                        <a href="payment_details.html" class="btn btn-success  text-white" type="submit">
+                            Continue To Pay</a>
+                        
+                        <a href="product_page.html" class="btn btn-secondary btn-outline-danger text-white" >Close
+
+                        </a>
+                    </form>
+                </div>
+            </div>
+            <h6 class="text-center mt-5"><i class='bx bxs-check-shield' class="fs-5"></i> Safe And Secure Returns Easy
+                Returns 100% Authentic Product</h6>
+        </div>
+    </main>
+    <footer class="text-light bg-dark mt-5   pb-1" >
+        <section class="footer mt-5 ">
+            <div class="mt-3 pt-2 text-center text-small ">
+                <div class="logo">
+                    <img src="https://codebybiswajit.github.io/secondportfolio/freelancer-biswajit-high-resolution-logo-transparent%20(1).png"
+                        alt="Freelancer Biswajit Logo" height="35px">
+                </div>
+                <p class="mb-1">© 2024 All in One | Shoping. All Rights Reserved | Created by Freelancer Biswajit</p>
+                <ul class="list-inline">
+                    <li class=""><a href="#" class="text-decoration-none">Privacy Terms & Support</a></li>
+                </ul>
+            </div>
+        </section>
+      </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
